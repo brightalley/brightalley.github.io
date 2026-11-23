@@ -11,4 +11,4 @@ This project is hosted using GitHub pages and runs under the domain: [status.bri
 3. `npm run dev`
 
 ## Deployment
-There is an automatic GitHub Actions deployment pipeline. Commits pushed to the main branch are automatically deployed to GitHub Pages.
+There is an automatic GitHub Actions deployment pipeline. Commits pushed to the main branch are automatically deployed to GitHub Pages..
