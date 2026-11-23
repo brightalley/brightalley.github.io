@@ -15,7 +15,7 @@ Er zijn op dit moment geen bekende verstoringen.
 <!-- Voorbeeld van een lopende melding (verwijder de commentaartekens om te gebruiken): -->
 
 ## Historie
-
+<!-- 
 ### 🔴 Websites tijdelijk offline door PHP-beveiligingsupdate
 
 - **Status:** Storing — we werken aan een oplossing
@@ -29,13 +29,13 @@ Door een kritieke kwetsbaarheid in PHP voeren we met spoed updates uit op onze s
 
 - 23-11-2026 10:00 — Updates op 60% van de servers uitgevoerd.
 - 23-11-2026 09:15 — Werkzaamheden gestart.
-<!-- -->
+-->
 
 ### 🟢 Voorbeeld: verstoring door PHP-kwetsbaarheid
 
 - **Status:** Opgelost
-- **Gestart:** 01-11-2026 08:30
-- **Opgelost:** 01-11-2026 11:45
+- **Gestart:** 01-11-2024 08:30
+- **Opgelost:** 01-11-2024 11:45
 - **Getroffen diensten:** Websites en webapplicaties
 
 **Oorzaak:** Een kritieke kwetsbaarheid in PHP maakte een directe update van onze webservers noodzakelijk.
