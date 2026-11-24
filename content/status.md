@@ -13,6 +13,8 @@
 
 Er zijn op dit moment geen bekende verstoringen.
 
+🔵 **Gepland onderhoud: upgrades naar de laatste versies van PHP, Laravel.
+
 <!-- Voorbeeld van een lopende melding (verwijder de commentaartekens om te gebruiken): -->
 
 ## Historie
