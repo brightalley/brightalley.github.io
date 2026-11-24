@@ -34,3 +34,4 @@ The admin page checks that the token has write access, shows a live preview of y
 
 ### Via Git
 Edit `content/status.md` and push to `main`.
+There is an automatic GitHub Actions deployment pipeline. Commits pushed to the main branch are automatically deployed to GitHub Pages..
