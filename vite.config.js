@@ -2,7 +2,7 @@ import {defineConfig} from 'vite'
 import {resolve} from 'node:path'
 import {readFileSync} from 'node:fs'
 import tailwindcss from '@tailwindcss/vite'
-import {marked} from 'marked'
+import {renderStatus} from './src/js/render-status.js'
 
 const statusFile = resolve(__dirname, 'content/status.md')
 
@@ -22,7 +22,7 @@ function statusMarkdown() {
                     timeZone: 'Europe/Amsterdam', dateStyle: 'long', timeStyle: 'short',
                 })
                 return html
-                    .replace('<!--status-content-->', marked.parse(markdown))
+                    .replace('<!--status-content-->', renderStatus(markdown))
                     .replace('<!--status-updated-->', updated)
             },
         },

@@ -1,13 +1,13 @@
 <!--
   Statuspagina Bright Alley
   - Zet lopende verstoringen onder "Actuele status". Geen verstoringen? Laat de groene melding staan.
+  - Laat de kop "## Historie" ongewijzigd: alles daaronder wordt automatisch als historie (kleiner, gedimd) getoond.
   - Verplaats een melding naar "Historie" (bovenaan, nieuwste eerst) zodra deze is opgelost en vul de oplosdatum in.
   - Statusiconen: 🔴 Storing · 🟠 Onderzoek / gedeeltelijke verstoring · 🔵 Gepland onderhoud · 🟢 Opgelost
   - Tijden in Nederlandse tijd, notatie: 23-11-2026 14:30
 -->
 
 ## Actuele status
-<sup>_🔴 Storing · 🟠 Onderzoek / gedeeltelijke verstoring · 🔵 Gepland onderhoud · 🟢 Opgelost_</sup>
 
 🟢 **Alle systemen werken normaal.**
 
@@ -21,7 +21,18 @@ Reguliere upgrades naar de laatste versies van PHP, Laravel op verschillende omg
 
 ## Historie
 
-<!--
+### 🟢 Verstoring door PHP-kwetsbaarheden CVE-2026-109618 en CVE-2026-109619
+
+- **Status:** Opgelost
+- **Gestart:** 21-10-2026 ca. 08:30
+- **Opgelost:** 21-10-2026 18:45
+- **Getroffen diensten:** Websites en webapplicaties
+
+**Oorzaak:** Een kritieke kwetsbaarheid in PHP maakte het stilleggen van alle PHP diensten noodzakelijk in afwachting van een beveiligingsupdate.
+
+**Oplossing:** Alle servers zijn bijgewerkt naar een gepatchte PHP-versie.
+
+<!-- VOORBEELD
 ### 🔴 Websites tijdelijk offline door PHP-beveiligingsupdate
 
 - **Status:** Storing — we werken aan een oplossing
@@ -35,14 +46,4 @@ Door een kritieke kwetsbaarheid in PHP voeren we met spoed updates uit op onze s
 
 - 23-11-2026 10:00 — Updates op 60% van de servers uitgevoerd.
 - 23-11-2026 09:15 — Werkzaamheden gestart.
--->
-### 🟢 Verstoring door PHP-kwetsbaarheden CVE-2026-109618 en CVE-2026-109619
-
-- **Status:** Opgelost
-- **Gestart:** 21-10-2026 ca. 08:30
-- **Opgelost:** 21-10-2026 18:45
-- **Getroffen diensten:** Websites en webapplicaties
-
-**Oorzaak:** Een kritieke kwetsbaarheid in PHP maakte het stilleggen van alle PHP diensten noodzakelijk in afwachting van een beveiligingsupdate.
-
-**Oplossing:** Alle servers zijn bijgewerkt naar een gepatchte PHP-versie.
+  -->

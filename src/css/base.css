@@ -1,0 +1,13 @@
+/*
+ * Base typography.
+ * Montserrat is self-hosted via @fontsource (bundled by Vite into dist/assets), so the
+ * status page has no dependency on Google Fonts or any other external service.
+ */
+@import '@fontsource-variable/montserrat';
+
+@theme {
+  /* Tailwind's preflight applies --font-sans to <html>, so this sets the default font. */
+  --font-sans:
+    'Montserrat Variable', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji',
+    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}

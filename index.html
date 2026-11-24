@@ -1,24 +1,44 @@
 <!doctype html>
 <html lang="nl-NL">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="robots" content="noindex">
-    <link href="/src/css/styles.css" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex" />
+    <link href="/src/css/styles.css" rel="stylesheet" />
     <title>Status | Bright Alley</title>
-</head>
-<body class="bg-gray-50 text-gray-900">
-    <header class="flex justify-start h-32 p-4">
-        <img src="./src/images/BA_logo-POC-FC.svg" alt="Bright Alley | Part of Conclusion"/>
+  </head>
+  <body class="flex min-h-screen flex-col text-gray-900">
+    <header
+      class="flex justify-start max-h-32 p-4 border-b-[0.5px] border-[#529f45] bg-white"
+    >
+      <img
+        class="h-[40px]"
+        src="./src/images/BA_logo-POC-FC.svg"
+        alt="Bright Alley | Part of Conclusion"
+      />
     </header>
-    <main class="mx-auto max-w-3xl px-4 pb-16">
-        <h1 class="text-3xl font-bold mb-2">Status van onze dienstverlening</h1>
-        <p class="text-sm text-gray-500 mb-8">Laatst bijgewerkt: <!--status-updated--></p>
-        <article class="prose prose-gray max-w-none bg-white rounded-lg shadow-sm p-6 sm:p-8
-                        prose-h2:mt-10 first:prose-h2:mt-0 prose-h2:border-b prose-h2:pb-2
-                        prose-h3:mt-8">
-            <!--status-content-->
-        </article>
+    <main class="mx-auto w-full max-w-3xl px-4 pb-16 mt-4">
+      <h1 class="text-3xl font-bold mb-2">Status van onze dienstverlening</h1>
+      <p class="text-sm text-gray-500 mb-8">
+        Laatst bijgewerkt:
+        <!--status-updated-->
+      </p>
+      <article
+        class="prose prose-gray max-w-none rounded-lg prose-h2:mt-10 [&>h2:first-child]:mt-0 prose-h2:border-b prose-h2:pb-2 prose-h3:mt-8 [&_.status-history]:text-xs [&_.status-history]:opacity-70"
+      >
+        <!--status-content-->
+      </article>
     </main>
-</body>
+    <footer class="grow bg-black text-gray-400 p-6">
+      <ul
+        class="flex flex-wrap gap-x-4 gap-y-1 text-xs"
+        aria-label="Legenda statusiconen"
+      >
+        <li>🔴 Storing</li>
+        <li>🟠 Onderzoek / gedeeltelijke verstoring</li>
+        <li>🔵 Gepland onderhoud</li>
+        <li>🟢 Opgelost</li>
+      </ul>
+    </footer>
+  </body>
 </html>
