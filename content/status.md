@@ -36,7 +36,7 @@ Door een kritieke kwetsbaarheid in PHP voeren we met spoed updates uit op onze s
 
 - **Status:** Opgelost
 - **Gestart:** 21-10-2026 ca. 08:30
-- **Opgelost:** 21-11-2026 18:45
+- **Opgelost:** 21-10-2026 18:45
 - **Getroffen diensten:** Websites en webapplicaties
 
 **Oorzaak:** Een kritieke kwetsbaarheid in PHP maakte het stilleggen van alle PHP diensten noodzakelijk in afwachting van een beveiligingsupdate.
