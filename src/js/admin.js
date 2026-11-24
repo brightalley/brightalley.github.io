@@ -1,4 +1,4 @@
-import {marked} from 'marked'
+import {renderStatus} from './render-status.js'
 
 // Repository that hosts the status page. Commits to BRANCH trigger the GitHub Pages deployment.
 const OWNER = 'brightalley'
@@ -68,7 +68,7 @@ const decodeBase64 = (b64) => new TextDecoder().decode(Uint8Array.from(atob(b64.
 const encodeBase64 = (text) => btoa(Array.from(new TextEncoder().encode(text), (b) => String.fromCharCode(b)).join(''))
 
 function renderPreview() {
-    els.preview.innerHTML = marked.parse(els.markdown.value)
+    els.preview.innerHTML = renderStatus(els.markdown.value)
 }
 
 async function loadFile() {

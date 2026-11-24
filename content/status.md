@@ -1,6 +1,7 @@
 <!--
   Statuspagina Bright Alley
   - Zet lopende verstoringen onder "Actuele status". Geen verstoringen? Laat de groene melding staan.
+  - Laat de kop "## Historie" ongewijzigd: alles daaronder wordt automatisch als historie (kleiner, gedimd) getoond.
   - Verplaats een melding naar "Historie" (bovenaan, nieuwste eerst) zodra deze is opgelost en vul de oplosdatum in.
   - Statusiconen: 🔴 Storing · 🟠 Onderzoek / gedeeltelijke verstoring · 🔵 Gepland onderhoud · 🟢 Opgelost
   - Tijden in Nederlandse tijd, notatie: 23-11-2026 14:30
@@ -14,8 +15,6 @@ Er zijn op dit moment geen bekende verstoringen.
 
 <!-- Voorbeeld van een lopende melding (verwijder de commentaartekens om te gebruiken): -->
 
-<div class="opacity-70 text-xs">
-
 ## Historie
 
 ### 🟢 Verstoring door PHP-kwetsbaarheden CVE-2026-109618 en CVE-2026-109619
@@ -28,8 +27,6 @@ Er zijn op dit moment geen bekende verstoringen.
 **Oorzaak:** Een kritieke kwetsbaarheid in PHP maakte het stilleggen van alle PHP diensten noodzakelijk in afwachting van een beveiligingsupdate.
 
 **Oplossing:** Alle servers zijn bijgewerkt naar een gepatchte PHP-versie.
-
-</div>
 
 <!-- VOORBEELD
 ### 🔴 Websites tijdelijk offline door PHP-beveiligingsupdate
