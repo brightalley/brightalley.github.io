@@ -7,6 +7,7 @@
 -->
 
 ## Actuele status
+<sup>_🔴 Storing · 🟠 Onderzoek / gedeeltelijke verstoring · 🔵 Gepland onderhoud · 🟢 Opgelost_</sup>
 
 🟢 **Alle systemen werken normaal.**
 
@@ -31,7 +32,6 @@ Door een kritieke kwetsbaarheid in PHP voeren we met spoed updates uit op onze s
 - 23-11-2026 10:00 — Updates op 60% van de servers uitgevoerd.
 - 23-11-2026 09:15 — Werkzaamheden gestart.
 -->
-
 ### 🟢 Verstoring door PHP-kwetsbaarheden CVE-2026-109618 en CVE-2026-109619
 
 - **Status:** Opgelost
